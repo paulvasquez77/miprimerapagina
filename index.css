@@ -1,0 +1,44 @@
+html{
+    background-image: url(eva.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: arial
+}
+
+h1{
+    text-align: center;
+}
+ h2, h3{
+     text-align: center;
+ }
+
+table, tr, th{
+    border-collapse: collapse;
+    width: 70%; height: 40px;
+    margin: auto;
+}
+.inicio{
+    background-color: rgb(55, 107, 160);
+}
+.nav-enlace{
+    background: rgb(45, 53, 68);
+    padding: 10px 30px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: rgb(32, 116, 39);
+}
+nav{
+    background:grey;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 600px) {
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+}
